@@ -1,21 +1,19 @@
-# Result Management System
+# Automatic OCR With Selenium
 
 ## Introduction
 
-A Result management system used any school student results, certificate manage. Manages Administrative control along with standard access to teacher and student for all necessary result related facilities. School result management system is very unique application. You can used the application for your institution.
-
-This is a simple result management system written in C#, that has some basic features of result management methodologies.
+It is a simple Selenium Python script that uses an online OCR platform (https://www.onlineocr.net/) to automate the OCR process. This simple script could be used to convert digital images' text in to digital text in doc, txt, xls formats.
 
 
+![Image](github-readme-contents/ocr-platform.jpg)
 
 
 ## Technology and Frameworks
 
-### Frontend
-
-- C#
-- .NET 4.8
-- MYSQL
+- Python 3.6
+- pyttsx3
+- argparse
+- selenium
 
 
 ## Directory Structure
