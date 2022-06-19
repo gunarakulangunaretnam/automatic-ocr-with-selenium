@@ -94,6 +94,7 @@ for file in os.listdir(input_dir):
 	else:
 		talk_function("Please provide valid file type")
 		print("Please provide valid file type: (doc, txt, xls)")
+		break
 
 
 

@@ -44,6 +44,33 @@ It is a simple Selenium Python script that uses an online OCR platform (https://
   pip install selenium
   ```
 
+## Execution
+
+- **Note:** Put all input digital images in "0-input-data".
+
+
+![Image](github-readme-contents/input-files.jpg)
+
+### Execution Commands
+
+- **Doc File Process**
+
+  ```
+  python run.py -t doc
+  ```
+
+- **Text File Process**
+
+  ```
+  python run.py -t txt
+  ```
+
+- **Xlsx File Process**
+
+  ```
+  python run.py -t xls
+  ```
+
 
 ## Social Media Links
 
