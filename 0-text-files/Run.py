@@ -21,7 +21,7 @@ def talk_function(audio):
 working_dir_path = os.path.dirname(os.path.realpath(__file__))
 supported_extensions = ['.jpg','.jpeg','.png','.tiff','jfif','gif','.bmp']
 
-default_download_directory = "{}\\Output_Data\\".format(working_dir_path)
+default_download_directory = "{}\\output-data\\".format(working_dir_path)
 
 options = webdriver.ChromeOptions()
 
@@ -39,9 +39,10 @@ driver.maximize_window()
 driver.execute_script("window.scrollTo(0, 300)") 
 
 
-input_dir = "{}\\Input_Data\\".format(working_dir_path)
-output_dir = "{}\\Output_Data\\".format(working_dir_path)
+input_dir = "{}\\input-data\\".format(working_dir_path)
+output_dir = "{}\\output-data\\".format(working_dir_path)
 
+# Delete all output files when this script is starting.
 for file in os.listdir(output_dir):
 	os.remove(output_dir+file)
 
@@ -105,13 +106,3 @@ for file in os.listdir(input_dir):
 
 
 talk_function("The process is completed.")
-	
-
-
-
-
-
-
-
-
-
