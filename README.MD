@@ -1,8 +1,8 @@
-# AUTOMATIC OCR WITH SELENIUM
+# Automatic OCR Using Selenium
 
 ## Introduction
 
-It is a simple Selenium Python script that uses an online OCR platform (https://www.onlineocr.net/) to automate the OCR process. This simple script could be used to convert digital images' text in to digital text in doc, txt, xls formats.
+It is a simple Selenium Python script that uses an online OCR platform (https://www.onlineocr.net/) to automate the OCR process. This simple script could be used to convert digital images' text into digital text in doc, txt, and xls formats.
 
 
 ![Image](github-readme-contents/ocr-platform.jpg)
@@ -71,7 +71,7 @@ It is a simple Selenium Python script that uses an online OCR platform (https://
   python run.py -t xls
   ```
 
-# CONTACT
+# Contact
 
 ### Website: 
 
